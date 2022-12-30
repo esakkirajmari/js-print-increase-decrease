@@ -10,6 +10,8 @@ function myFunction(){
 }
 function myFunction1(){
     let a=document.getElementById("number").value;
-    a--;
+    if(a>0){
+        a--;
+    }
     document.getElementById("number").value=a;
 }
